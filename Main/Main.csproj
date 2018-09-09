@@ -44,8 +44,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnionFind\CompressedWeightedQuickUnionFind.cs" />
     <Compile Include="UnionFind\IUnionFind.cs" />
+    <Compile Include="UnionFind\Percolation.cs" />
+    <Compile Include="UnionFind\QuickUnionFind.cs" />
     <Compile Include="UnionFind\UnionFind.cs" />
+    <Compile Include="UnionFind\WeightedQuickUnionFind.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
