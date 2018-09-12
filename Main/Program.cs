@@ -10,7 +10,7 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            TestPercolation();
+            Common.BinarySearch.Test(args);
         }
 
         static void TestPercolation()
@@ -27,5 +27,7 @@ namespace Main
             Console.WriteLine("Percolates: " + (perc.Percolates() ? "YES" : "NO"));
             Console.ReadKey();
         }
+
+  
     }
 }

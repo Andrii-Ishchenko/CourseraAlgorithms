@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitonicArrayBinarySearch\BitonicBinarySearch.cs" />
+    <Compile Include="Common\BinarySearch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnionFind\CompressedWeightedQuickUnionFind.cs" />
